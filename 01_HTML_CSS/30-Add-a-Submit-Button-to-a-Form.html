@@ -1,23 +1,15 @@
 <!--****************************************************************************
-    * Title......: Challenege 26 - Create an Ordered List
+    * Title......: Challenege 30 - Add a Submit Button to a Form
     * Author.....: Kaskade
-    * Date.......: 05/26/2017
+    * Date.......: 05/27/2017
     *
     * Description:
     *
-    * HTML has a special element for creating ordered lists, or numbered-style lists.
-    *
-    * Ordered lists start with a <ol> element. Then they contain some number of <li> elements.
-    *
-    * For example:
-    *
-    * <ol>
-    *   <li>Garfield</li>
-    *   <li>Sylvester</li>
-    * </ol>
+    * Here's an example submit button:
+    * <button type="submit">this button submits the form</button>
     *
     * Instructions for this challenge:
-    * 1. Create an ordered list of the top 3 things cats hate the most.
+    * 1. Add a submit button to your form element with type submit and "Submit" as its text.
     *
     ****************************************************************************-->
 
@@ -66,3 +58,8 @@
     <li>Cucumbers</li>
     <li>Humans</li>
 </ol>
+
+<form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" />
+    <button type="submit">Submit</button>
+</form>
