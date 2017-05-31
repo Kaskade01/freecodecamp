@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\01_HTML_CSS"
+    "\\01-FRONT-END",
+    "\\01-FRONT-END\\02_RESPONSIVE_DESIGN_WITH_BOOTSTRAP"
   ],
-  "SelectedNode": "\\01_HTML_CSS",
+  "SelectedNode": "\\01-FRONT-END\\02_RESPONSIVE_DESIGN_WITH_BOOTSTRAP\\05 Create a Block Element Bootstrap Button.html",
   "PreviewInSolutionExplorer": false
 }
