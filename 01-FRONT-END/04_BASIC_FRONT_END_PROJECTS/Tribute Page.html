@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -19,8 +19,8 @@
             margin-top: 15px;
         }
         .banner {
-            color:white;
-            background-image:url(img/flag.jpg);
+            color: white;
+            background-image: url(https://raw.githubusercontent.com/Kaskade01/freecodecamp/master/01-FRONT-END/04_BASIC_FRONT_END_PROJECTS/img/flag.jpg);
         }
         .jumbotron {
             margin-top: 0px;
@@ -44,7 +44,7 @@
         <div class="jumbotron text-center banner">
             <h1>Donald J. Trump</h1>
             <p>45th President of the United States</p>
-            <img class="img-responsive img-circle center-block" src="img/trump.jpg" />  
+            <img class="img-fluid rounded-circle center-block" src="https://raw.githubusercontent.com/Kaskade01/freecodecamp/master/01-FRONT-END/04_BASIC_FRONT_END_PROJECTS/img/trump.jpg" />  
         </div>
                
     </div>
@@ -61,15 +61,15 @@
     <div class="container-fluid text-center">
         <div class="jumbotron" style="background-color:#103559; color:#001830;">
 
-            <div class="panel panel-default ">
-                <div class="panel-heading" style="color:#001830;"><strong>Campaign Slogan</strong></div>
-                <div class="panel-body">
+            <div class="card">
+                <div class="card-header" style="color:#001830;"><strong>Campaign Slogan</strong></div>
+                <div class="card-block">
                     <h1>"Make America Great Again"</h1>
                 </div>
-            </div>
-            <div class="panel panel-default ">
-                <div class="panel-heading" style="color:#001830;"><strong>A Brief History of Donald Trump</strong></div>
-                <div class="panel-body">
+            </div><br />
+            <div class="card">
+                <div class="card-header" style="color:#001830;"><strong>A Brief History of Donald Trump</strong></div>
+                <div class="card-block">
                     <ul>
                         <li><strong>1946</strong> - Donald Trump is born.</li>
                         <li><strong>1964</strong> - Graduates from New York Military Academy.</li>
@@ -99,22 +99,22 @@
                     </ul>
                     <h4 class="text-right small">Roach, D. (2015, September 11). We condensed Donald Trump's lifetime into a simple infographic. Retrieved June 01, 2017, from <a href="http://www.businessinsider.com/donald-trump-career-timeline-history-2015-9" target="_blank">http://www.businessinsider.com/donald-trump-career-timeline-history-2015-9</a>
 </h4>
-                    <div class="panel panel-default ">
-                        <div class="panel-heading" style="color:#001830;"><strong>Learn More</strong></div>
-                        <div class="panel-body">
-                            <h3>Learn more about Donald Trump his <a href="https://en.wikipedia.org/wiki/Donald_Trump" target="_blank">Wikipedia page</a>.</h3>
-                        </div>
-                    </div>
+                    
+                </div>
+            </div> <br />
+            <div class="card">
+                <div class="card-header" style="color:#001830;"><strong>Learn More</strong></div>
+                <div class="card-block">
+                    <h3>Learn more about Donald Trump his <a href="https://en.wikipedia.org/wiki/Donald_Trump" target="_blank">Wikipedia page</a>.</h3>
                 </div>
             </div>
-
         </div>
     </div>
 
     <!-- Footer -->
     <footer class="container-fluid text-center">
         <div class="jumbotron" style="background-color:#A80019; color:#FFFFFF; padding:0px;">
-            <p>Trump Tribute Page by Kaskade</p>
+            <p>FreeCodeCamp Trump Tribute Page by Kaskade</p>
         </div>
     </footer>
 
