@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\01-FRONT-END",
-    "\\01-FRONT-END\\02_RESPONSIVE_DESIGN_WITH_BOOTSTRAP"
+    "\\01-FRONT-END\\02_RESPONSIVE_DESIGN_WITH_BOOTSTRAP",
+    "\\01-FRONT-END\\04_BASIC_FRONT_END_PROJECTS",
+    "\\01-FRONT-END\\04_BASIC_FRONT_END_PROJECTS\\img"
   ],
-  "SelectedNode": "\\01-FRONT-END\\02_RESPONSIVE_DESIGN_WITH_BOOTSTRAP\\10 Ditch Custom CSS for Bootstrap.html",
+  "SelectedNode": "\\01-FRONT-END\\02_RESPONSIVE_DESIGN_WITH_BOOTSTRAP\\22 Split your Bootstrap Row.html",
   "PreviewInSolutionExplorer": false
 }
