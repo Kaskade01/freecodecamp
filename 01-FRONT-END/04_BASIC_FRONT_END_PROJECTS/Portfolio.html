@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>FreeCodeCamp - Kaskade Portfolio Page</title>
-    <!-- jQuery -->
+    <!-- jQuery CDN link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
+    <!-- boostrap CDN link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <style>
+        /* body css */
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+        }
         /* background */
         body:before {
             width: 100%;
@@ -21,12 +24,64 @@
             left: 0;
             top: 0;
             z-index: -10;
-            background: #000000 url(img/emmet.jpg) top center no-repeat;
+            background: #000000 url(img/emmet3.jpg) top center no-repeat;
             background-size: cover;
         }
         section.main {
-            background: transparent url(img/bg.png) top left repeat;
+            background: transparent url(img/bg2.png) top left repeat;
             color: white;
+        }
+        /* footer */
+        footer {
+            background: transparent url(img/bg4.png) top left repeat;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+        footer a, footer a:hover, footer a:visited {
+            color: #ff0000;
+        }
+        footer p {
+            color: white;
+            margin-bottom: .25rem;
+        }
+
+        /* responsive typography, padding, margins, etc. */
+        .big {
+            font-family: Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 37px;
+            line-height: 46px;
+        }
+        /* small devices */
+        @media (min-width: 576px) {
+            .big {
+                font-size: 37px;
+                line-height: 46px;
+            }
+            .shift {
+                margin-left: 0px;
+            }
+        }
+        /* medium devices */
+        @media (min-width: 768px) {
+            .big {
+                font-size: 54px;
+                line-height: 66px;
+            }
+            .shift {
+                margin-left: -20px;
+            }
+        }
+        /* large devices */
+        @media (min-width: 992px) {
+            .big {
+                font-size: 58px;
+                line-height: 72px
+            }
+            .shift {
+                margin-left: -30px;
+            }
         }
     </style>
 </head>
@@ -35,10 +90,14 @@
     <section class="main container-fluid">
         <!-- navigation -->
         <nav class="navbar navbar-toggleable-md navbar-inverse">
+            <!-- toggler -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- nav brand-->
             <a class="navbar-brand" href="#">Kaskade</a>
             <!-- collapsable nav links -->
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarContent">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="#">About</a>
                     <a class="nav-item nav-link" href="#">Projects</a>
@@ -46,11 +105,33 @@
                 </div>
             </div>
         </nav>
-        <header class="text-center">
-            <h1>Kaskade</h1>
-            <h2>Coder, Leader, Technologist, Student, Volunteer</h2>
-        </header>
+
+        <!-- main content -->
+        <div class="container">
+            <div class="shift">
+                <h1>Kaskade</h1>
+                <h2>Coder, Leader, Technologist, Student, Volunteer</h2>
+                <p class="big">
+                    I am an ordinary, rules-following, perfectly average programmer who is mistakenly identified as the most extraordinary person and the key to saving the world.
+                </p>
+                <p class="big">
+                    I was drafted into a fellowship of strangers on an epic quest to stop an evil tyrant, a journey for which I am hopelessly and hilariously underprepared.
+                </p>
+            </div>
+            
+        </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
